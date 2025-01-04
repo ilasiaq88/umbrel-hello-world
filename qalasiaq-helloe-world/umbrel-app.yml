@@ -2,7 +2,7 @@ manifestVersion: 1
 id: qalasiaq-hello-world
 name: Hello World
 tagline: Qalasiaq is learning hello World - Working with ports
-icon: https://ibb.co/jz4VH7d
+icon: https://framerusercontent.com/images/swGTSgeI1TuHlhzwMCilaiJLg6s.png?scale-down-to=1024
 category: Development
 version: "1.0.0"
 port: 4422
@@ -12,11 +12,11 @@ description: >-
 developer: Qalasiaq
 website: https://ingemann.gl
 submitter: Ilasiaq
-submission: https://github.com/ilasiaq88/umbrel-helloe-world
-repo: https://github.com/ilasiaq88/umbrel-helloe-world
-support: https://github.com/ilasiaq88/umbrel-helloe-world/issues
+submission: https://github.com/ilasiaq88/umbrel-hello-world
+repo: https://github.com/ilasiaq88/umbrel-hello-world
+support: https://github.com/ilasiaq88/umbrel-hello-world/issues
 gallery:
-  - 
+  - https://framerusercontent.com/images/Mi9NHeSXGLNfzLaZXjV434AOsJo.png
 releaseNotes: >-
   This is my first setup
 dependencies: []
