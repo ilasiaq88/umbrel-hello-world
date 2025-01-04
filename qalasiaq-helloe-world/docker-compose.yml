@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: qalasiaq-hello-world_1
+      APP_PORT: 4343
+
+  hello-world:
+    image: crccheck/hello-world
+    ports:
+      - 4343:80
+
+    restart: always
