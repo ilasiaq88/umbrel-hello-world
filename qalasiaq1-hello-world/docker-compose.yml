@@ -3,10 +3,10 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: qalasiaq1-helloworld_server_1
+      APP_HOST: qalasiaq1-hello_world_server_1
       APP_PORT: 8000
 
-  hello1world:
+  hello_world:
     image: crccheck/hello-world
     ports:
       - 8000:8000
