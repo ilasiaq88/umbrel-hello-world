@@ -1,11 +1,13 @@
 version: "3"
 services:
 
-  app_proxy:
-    environment:
-      APP_HOST: qalasiaq1-hello_world_server_1
-      APP_PORT: 8000
+  #app_proxy:
+  #  environment:
+  #    APP_HOST: qalasiaq1-hello_world_server_1
+  #    APP_PORT: 8000
 
   hello_world:
     image: crccheck/hello-world
     restart: always
+    ports:
+      - 8000:8000
