@@ -4,11 +4,11 @@ services:
   app_proxy:
     environment:
       APP_HOST: qalasiaq-hello-world_1
-      APP_PORT: 4343
+      APP_PORT: 8000
 
   hello-world:
     image: crccheck/hello-world
     ports:
-      - 4343:8000
+      - 8000:8000
 
     restart: always

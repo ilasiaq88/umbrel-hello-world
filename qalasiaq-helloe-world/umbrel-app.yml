@@ -5,7 +5,7 @@ tagline: Qalasiaq is learning hello World - Working with ports
 icon: https://ibb.co/jz4VH7d
 category: Development
 version: "1.0.0"
-port: 4343
+port: 4422
 description: >-
   Monitor your home and internet services
 
